@@ -1,4 +1,4 @@
-![Assignment2_ Prompt3](https://github.com/user-attachments/assets/933c2e78-df1e-4841-a430-f3bcc507b8d8)# Assignment 2: Design a Logical Model and Advanced SQL
+# Assignment 2: Design a Logical Model and Advanced SQL
 
 🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
@@ -49,6 +49,7 @@ There are several tools online you can use, I'd recommend [Draw.io](https://www.
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
 
 ![image](https://github.com/user-attachments/assets/4f43cf4c-78ce-4186-b211-f242d04ba73f)
+
 
 
 #### Prompt 3
