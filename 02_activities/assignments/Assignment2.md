@@ -54,7 +54,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+The type of table which retain the changes will have address ID assigned to each address. This way we can store all addresses ever added to the table. This ID is set as primary key, the customer ID is set as foriegn key to have connection with customers' table.
+The type of the table which is overwriting values has customer ID as primary key for the addresses' table and it is also set as foreign key for the customers' table to connect each address to the customer. This way each customer can have 1 address per time, so updating address for customer will mean overwriting the address in DB.
 ```
 
 ***
