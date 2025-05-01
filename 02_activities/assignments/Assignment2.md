@@ -48,14 +48,22 @@ There are several tools online you can use, I'd recommend [Draw.io](https://www.
 #### Prompt 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
 
+![image](https://github.com/user-attachments/assets/4f43cf4c-78ce-4186-b211-f242d04ba73f)
+
+
+
 #### Prompt 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2? 
 
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+The type of table which retain the changes will have address ID assigned to each address. This way we can store all addresses ever added to the table. This ID is set as primary key, the customer ID is set as foriegn key to have connection with customers' table.
+The type of the table which is overwriting values has customer ID as primary key for the addresses' table and it is also set as foreign key for the customers' table to connect each address to the customer. This way each customer can have 1 address per time, so updating address for customer will mean overwriting the address in DB.
 ```
+
+![image](https://github.com/user-attachments/assets/006e0c85-c12f-4be2-b4f6-2e5882e5ef8a)
+
 
 ***
 
